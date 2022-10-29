@@ -96,6 +96,7 @@ export default {
   },
   created() {
     this.$store.commit("setTabbarStatus");
+    console.log('ddd')
   },
   methods: {
     // validPhone(valuee) {
